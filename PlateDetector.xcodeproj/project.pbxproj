@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		906EB9CE222AAFFC0023DEFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906EB9CD222AAFFC0023DEFD /* AppDelegate.swift */; };
+		906EB9D0222AAFFC0023DEFD /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906EB9CF222AAFFC0023DEFD /* RootViewController.swift */; };
+		906EB9D2222AAFFC0023DEFD /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906EB9D1222AAFFC0023DEFD /* DataViewController.swift */; };
+		906EB9D4222AAFFC0023DEFD /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906EB9D3222AAFFC0023DEFD /* ModelController.swift */; };
+		906EB9D7222AAFFC0023DEFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 906EB9D5222AAFFC0023DEFD /* Main.storyboard */; };
+		906EB9D9222AAFFD0023DEFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 906EB9D8222AAFFD0023DEFD /* Assets.xcassets */; };
+		906EB9DC222AAFFD0023DEFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 906EB9DA222AAFFD0023DEFD /* LaunchScreen.storyboard */; };
+		906EB9E7222AAFFE0023DEFD /* PlateDetectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906EB9E6222AAFFE0023DEFD /* PlateDetectorTests.swift */; };
+		906EB9F2222AAFFE0023DEFD /* PlateDetectorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906EB9F1222AAFFE0023DEFD /* PlateDetectorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		906EB9E3222AAFFE0023DEFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 906EB9C2222AAFFB0023DEFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 906EB9C9222AAFFB0023DEFD;
+			remoteInfo = PlateDetector;
+		};
+		906EB9EE222AAFFE0023DEFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 906EB9C2222AAFFB0023DEFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 906EB9C9222AAFFB0023DEFD;
+			remoteInfo = PlateDetector;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		906EB9CA222AAFFC0023DEFD /* PlateDetector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlateDetector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		906EB9CD222AAFFC0023DEFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		906EB9CF222AAFFC0023DEFD /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		906EB9D1222AAFFC0023DEFD /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		906EB9D3222AAFFC0023DEFD /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		906EB9D6222AAFFC0023DEFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		906EB9D8222AAFFD0023DEFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		906EB9DB222AAFFD0023DEFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		906EB9DD222AAFFD0023DEFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		906EB9E2222AAFFE0023DEFD /* PlateDetectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlateDetectorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		906EB9E6222AAFFE0023DEFD /* PlateDetectorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlateDetectorTests.swift; sourceTree = "<group>"; };
+		906EB9E8222AAFFE0023DEFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		906EB9ED222AAFFE0023DEFD /* PlateDetectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlateDetectorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		906EB9F1222AAFFE0023DEFD /* PlateDetectorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlateDetectorUITests.swift; sourceTree = "<group>"; };
+		906EB9F3222AAFFE0023DEFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		906EB9C7222AAFFB0023DEFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		906EB9DF222AAFFE0023DEFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		906EB9EA222AAFFE0023DEFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		906EB9C1222AAFFB0023DEFD = {
+			isa = PBXGroup;
+			children = (
+				906EB9CC222AAFFC0023DEFD /* PlateDetector */,
+				906EB9E5222AAFFE0023DEFD /* PlateDetectorTests */,
+				906EB9F0222AAFFE0023DEFD /* PlateDetectorUITests */,
+				906EB9CB222AAFFC0023DEFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		906EB9CB222AAFFC0023DEFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				906EB9CA222AAFFC0023DEFD /* PlateDetector.app */,
+				906EB9E2222AAFFE0023DEFD /* PlateDetectorTests.xctest */,
+				906EB9ED222AAFFE0023DEFD /* PlateDetectorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		906EB9CC222AAFFC0023DEFD /* PlateDetector */ = {
+			isa = PBXGroup;
+			children = (
+				906EB9CD222AAFFC0023DEFD /* AppDelegate.swift */,
+				906EB9CF222AAFFC0023DEFD /* RootViewController.swift */,
+				906EB9D1222AAFFC0023DEFD /* DataViewController.swift */,
+				906EB9D3222AAFFC0023DEFD /* ModelController.swift */,
+				906EB9D5222AAFFC0023DEFD /* Main.storyboard */,
+				906EB9D8222AAFFD0023DEFD /* Assets.xcassets */,
+				906EB9DA222AAFFD0023DEFD /* LaunchScreen.storyboard */,
+				906EB9DD222AAFFD0023DEFD /* Info.plist */,
+			);
+			path = PlateDetector;
+			sourceTree = "<group>";
+		};
+		906EB9E5222AAFFE0023DEFD /* PlateDetectorTests */ = {
+			isa = PBXGroup;
+			children = (
+				906EB9E6222AAFFE0023DEFD /* PlateDetectorTests.swift */,
+				906EB9E8222AAFFE0023DEFD /* Info.plist */,
+			);
+			path = PlateDetectorTests;
+			sourceTree = "<group>";
+		};
+		906EB9F0222AAFFE0023DEFD /* PlateDetectorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				906EB9F1222AAFFE0023DEFD /* PlateDetectorUITests.swift */,
+				906EB9F3222AAFFE0023DEFD /* Info.plist */,
+			);
+			path = PlateDetectorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		906EB9C9222AAFFB0023DEFD /* PlateDetector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 906EB9F6222AAFFE0023DEFD /* Build configuration list for PBXNativeTarget "PlateDetector" */;
+			buildPhases = (
+				906EB9C6222AAFFB0023DEFD /* Sources */,
+				906EB9C7222AAFFB0023DEFD /* Frameworks */,
+				906EB9C8222AAFFB0023DEFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlateDetector;
+			productName = PlateDetector;
+			productReference = 906EB9CA222AAFFC0023DEFD /* PlateDetector.app */;
+			productType = "com.apple.product-type.application";
+		};
+		906EB9E1222AAFFE0023DEFD /* PlateDetectorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 906EB9F9222AAFFE0023DEFD /* Build configuration list for PBXNativeTarget "PlateDetectorTests" */;
+			buildPhases = (
+				906EB9DE222AAFFE0023DEFD /* Sources */,
+				906EB9DF222AAFFE0023DEFD /* Frameworks */,
+				906EB9E0222AAFFE0023DEFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				906EB9E4222AAFFE0023DEFD /* PBXTargetDependency */,
+			);
+			name = PlateDetectorTests;
+			productName = PlateDetectorTests;
+			productReference = 906EB9E2222AAFFE0023DEFD /* PlateDetectorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		906EB9EC222AAFFE0023DEFD /* PlateDetectorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 906EB9FC222AAFFE0023DEFD /* Build configuration list for PBXNativeTarget "PlateDetectorUITests" */;
+			buildPhases = (
+				906EB9E9222AAFFE0023DEFD /* Sources */,
+				906EB9EA222AAFFE0023DEFD /* Frameworks */,
+				906EB9EB222AAFFE0023DEFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				906EB9EF222AAFFE0023DEFD /* PBXTargetDependency */,
+			);
+			name = PlateDetectorUITests;
+			productName = PlateDetectorUITests;
+			productReference = 906EB9ED222AAFFE0023DEFD /* PlateDetectorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		906EB9C2222AAFFB0023DEFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Wesley Swanson";
+				TargetAttributes = {
+					906EB9C9222AAFFB0023DEFD = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					906EB9E1222AAFFE0023DEFD = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 906EB9C9222AAFFB0023DEFD;
+					};
+					906EB9EC222AAFFE0023DEFD = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 906EB9C9222AAFFB0023DEFD;
+					};
+				};
+			};
+			buildConfigurationList = 906EB9C5222AAFFB0023DEFD /* Build configuration list for PBXProject "PlateDetector" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 906EB9C1222AAFFB0023DEFD;
+			productRefGroup = 906EB9CB222AAFFC0023DEFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				906EB9C9222AAFFB0023DEFD /* PlateDetector */,
+				906EB9E1222AAFFE0023DEFD /* PlateDetectorTests */,
+				906EB9EC222AAFFE0023DEFD /* PlateDetectorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		906EB9C8222AAFFB0023DEFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				906EB9DC222AAFFD0023DEFD /* LaunchScreen.storyboard in Resources */,
+				906EB9D9222AAFFD0023DEFD /* Assets.xcassets in Resources */,
+				906EB9D7222AAFFC0023DEFD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		906EB9E0222AAFFE0023DEFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		906EB9EB222AAFFE0023DEFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		906EB9C6222AAFFB0023DEFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				906EB9D0222AAFFC0023DEFD /* RootViewController.swift in Sources */,
+				906EB9D4222AAFFC0023DEFD /* ModelController.swift in Sources */,
+				906EB9D2222AAFFC0023DEFD /* DataViewController.swift in Sources */,
+				906EB9CE222AAFFC0023DEFD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		906EB9DE222AAFFE0023DEFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				906EB9E7222AAFFE0023DEFD /* PlateDetectorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		906EB9E9222AAFFE0023DEFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				906EB9F2222AAFFE0023DEFD /* PlateDetectorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		906EB9E4222AAFFE0023DEFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 906EB9C9222AAFFB0023DEFD /* PlateDetector */;
+			targetProxy = 906EB9E3222AAFFE0023DEFD /* PBXContainerItemProxy */;
+		};
+		906EB9EF222AAFFE0023DEFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 906EB9C9222AAFFB0023DEFD /* PlateDetector */;
+			targetProxy = 906EB9EE222AAFFE0023DEFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		906EB9D5222AAFFC0023DEFD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				906EB9D6222AAFFC0023DEFD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		906EB9DA222AAFFD0023DEFD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				906EB9DB222AAFFD0023DEFD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		906EB9F4222AAFFE0023DEFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		906EB9F5222AAFFE0023DEFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		906EB9F7222AAFFE0023DEFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZPQ86T6NK4;
+				INFOPLIST_FILE = PlateDetector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ws.PlateDetector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		906EB9F8222AAFFE0023DEFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZPQ86T6NK4;
+				INFOPLIST_FILE = PlateDetector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ws.PlateDetector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		906EB9FA222AAFFE0023DEFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZPQ86T6NK4;
+				INFOPLIST_FILE = PlateDetectorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ws.PlateDetectorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlateDetector.app/PlateDetector";
+			};
+			name = Debug;
+		};
+		906EB9FB222AAFFE0023DEFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZPQ86T6NK4;
+				INFOPLIST_FILE = PlateDetectorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ws.PlateDetectorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlateDetector.app/PlateDetector";
+			};
+			name = Release;
+		};
+		906EB9FD222AAFFE0023DEFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZPQ86T6NK4;
+				INFOPLIST_FILE = PlateDetectorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ws.PlateDetectorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PlateDetector;
+			};
+			name = Debug;
+		};
+		906EB9FE222AAFFE0023DEFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZPQ86T6NK4;
+				INFOPLIST_FILE = PlateDetectorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ws.PlateDetectorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PlateDetector;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		906EB9C5222AAFFB0023DEFD /* Build configuration list for PBXProject "PlateDetector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				906EB9F4222AAFFE0023DEFD /* Debug */,
+				906EB9F5222AAFFE0023DEFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		906EB9F6222AAFFE0023DEFD /* Build configuration list for PBXNativeTarget "PlateDetector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				906EB9F7222AAFFE0023DEFD /* Debug */,
+				906EB9F8222AAFFE0023DEFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		906EB9F9222AAFFE0023DEFD /* Build configuration list for PBXNativeTarget "PlateDetectorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				906EB9FA222AAFFE0023DEFD /* Debug */,
+				906EB9FB222AAFFE0023DEFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		906EB9FC222AAFFE0023DEFD /* Build configuration list for PBXNativeTarget "PlateDetectorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				906EB9FD222AAFFE0023DEFD /* Debug */,
+				906EB9FE222AAFFE0023DEFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 906EB9C2222AAFFB0023DEFD /* Project object */;
+}
