@@ -1,0 +1,846 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C074BED6D6713DA11030E2D2E81211E /* Pods-PlateDetector-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67F29AB243F94477EFBE1696EEE5FC0E /* Pods-PlateDetector-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2852FBA8686C7B8CA9DE901FFA24EE64 /* Pods-PlateDetectorTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5E595A4A8402C7AC8F9E2F18182D27 /* Pods-PlateDetectorTests-dummy.m */; };
+		30845DB8EB14754E85A1F5B07A3B5348 /* Pods-PlateDetectorUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FFC281C9C5B874159F14A58E2CCE9DD /* Pods-PlateDetectorUITests-dummy.m */; };
+		3E59FF3F0FCE795C415812A598080913 /* Pods-PlateDetector-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1190BBE3CFD3744375715E03AFE6F38A /* Pods-PlateDetector-dummy.m */; };
+		4A64C2A218090EC6A767E602C49D3AB6 /* Pods-PlateDetectorUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AF4CCEA87E1DD5AE7902869CC5A858D /* Pods-PlateDetectorUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E4FBA69D279E0D58864B5BCD19EE301 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		7C2D38E88CED78DE39D6C1AEB1A67962 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		A97CC5421601ABD2D5279BA3856B1EBE /* Pods-PlateDetectorTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17138F005C99DCB89EDCEA04CB114260 /* Pods-PlateDetectorTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEF3019EF7903F8C75F3C13847322E13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8D65AFB577C4ED1B3EA1C85CFAED79BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E081663AF03B157D46A6257911A17201;
+			remoteInfo = "Pods-PlateDetector";
+		};
+		B7AADFC15DA8393D26C7BCB57C0E6120 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E081663AF03B157D46A6257911A17201;
+			remoteInfo = "Pods-PlateDetector";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		048FB5684ED17C7A054BE459A93CFB9E /* Pods-PlateDetector.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PlateDetector.modulemap"; sourceTree = "<group>"; };
+		08F1229163C7F5E61C7C4B361510F11C /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		09158159303E2355E47D27F2F7C96E83 /* Pods-PlateDetector-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PlateDetector-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0AF4CCEA87E1DD5AE7902869CC5A858D /* Pods-PlateDetectorUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PlateDetectorUITests-umbrella.h"; sourceTree = "<group>"; };
+		0B0AABB2B6185D0C7B67CE771B58EA36 /* Pods-PlateDetector-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PlateDetector-resources.sh"; sourceTree = "<group>"; };
+		0D2F715FD649F62B84685EEB1D75BA9A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1190BBE3CFD3744375715E03AFE6F38A /* Pods-PlateDetector-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PlateDetector-dummy.m"; sourceTree = "<group>"; };
+		17138F005C99DCB89EDCEA04CB114260 /* Pods-PlateDetectorTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PlateDetectorTests-umbrella.h"; sourceTree = "<group>"; };
+		17375E1B49C4EA8C63298103C5607591 /* Pods-PlateDetector.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PlateDetector.release.xcconfig"; sourceTree = "<group>"; };
+		1C6200385182862E9168588E60B1CD37 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		1FFC281C9C5B874159F14A58E2CCE9DD /* Pods-PlateDetectorUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PlateDetectorUITests-dummy.m"; sourceTree = "<group>"; };
+		229C277DCB3B2FEA232929F4A1B035C8 /* Pods_PlateDetectorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PlateDetectorTests.framework; path = "Pods-PlateDetectorTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		295C5485248FC29D747A4951585FC170 /* Pods_PlateDetectorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PlateDetectorUITests.framework; path = "Pods-PlateDetectorUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3913A4C508E94F9377E4480E9A4CEF55 /* Pods-PlateDetectorTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PlateDetectorTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		63CD70947E918F2E0D71458036BCF19F /* Pods-PlateDetectorUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PlateDetectorUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		67F29AB243F94477EFBE1696EEE5FC0E /* Pods-PlateDetector-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PlateDetector-umbrella.h"; sourceTree = "<group>"; };
+		70324FDF1FBB41BEA92DE76E00BD3E96 /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
+		832B0D63B14C07C1795941F7911DD8B5 /* Pods-PlateDetectorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PlateDetectorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8F388DC1EF7FBDC3992945CD299E6830 /* Pods-PlateDetector.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PlateDetector.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		941195AFC6081B846103A3B3BB3FBDE1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E39CFD4BE367529FD7CBC0BE08C5578 /* Pods-PlateDetectorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PlateDetectorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A4447431B9A3D1E2E4B2491EE0F93EB5 /* Pods-PlateDetectorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PlateDetectorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A65ED65616C5861E2765BDC60AAAF910 /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
+		A6DC6465B71399CD0CD165F0FDE2EB44 /* Pods-PlateDetector-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PlateDetector-frameworks.sh"; sourceTree = "<group>"; };
+		A88E42A8CDD355179E60C380428026E9 /* Pods-PlateDetectorTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PlateDetectorTests.modulemap"; sourceTree = "<group>"; };
+		A92DFDA40F47C0FD221B2872C31099A1 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		B22C69ADCE7C9D529F11B17B4EF5E065 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		B37218E4FA51F34C8224BFF8101AA998 /* Pods-PlateDetectorTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PlateDetectorTests-frameworks.sh"; sourceTree = "<group>"; };
+		BB37D35B3ED8D66784351D4875509ADE /* Pods_PlateDetector.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PlateDetector.framework; path = "Pods-PlateDetector.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2A4AC58A4E241BCA81AF724334CE391 /* Pods-PlateDetectorUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PlateDetectorUITests-resources.sh"; sourceTree = "<group>"; };
+		C36122D539C75CA030E2D1C08DF96B23 /* Pods-PlateDetector-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PlateDetector-acknowledgements.plist"; sourceTree = "<group>"; };
+		C91A9B8B2C2887785527C1029FE43BC8 /* Pods-PlateDetectorUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PlateDetectorUITests.modulemap"; sourceTree = "<group>"; };
+		D0D107B3F2A270B07E53BF7F5AF827CE /* Pods-PlateDetectorTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PlateDetectorTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DD5E595A4A8402C7AC8F9E2F18182D27 /* Pods-PlateDetectorTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PlateDetectorTests-dummy.m"; sourceTree = "<group>"; };
+		DD8998862EA6854407737804ED293F66 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1307242DB5B51990602EFFFF1956267 /* Pods-PlateDetectorUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PlateDetectorUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F8DBD2CF3CCF8B59B5F8E7134C1C4C39 /* Pods-PlateDetectorUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PlateDetectorUITests-frameworks.sh"; sourceTree = "<group>"; };
+		FC0B4AFE7763DAB2B78F7CB5439D1FA7 /* Pods-PlateDetectorTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PlateDetectorTests-resources.sh"; sourceTree = "<group>"; };
+		FCF8BA6CFD343D7206E2F4BD73F46039 /* Pods-PlateDetectorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PlateDetectorTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17368A98F2D296F68EB5857F4FF775EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E4FBA69D279E0D58864B5BCD19EE301 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EDFDD5B152972FA4CF0D92BF0385DCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C2D38E88CED78DE39D6C1AEB1A67962 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B2C5320537296D7285A2070CE7072D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEF3019EF7903F8C75F3C13847322E13 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00B63D9B3EBC8ECAFD5DA8C24F1A42DF /* GooglePlaces */ = {
+			isa = PBXGroup;
+			children = (
+				475420FA59EFC8377CF994A338979247 /* Frameworks */,
+				09DB508F39D8BE758EA4A7B9047268E9 /* Resources */,
+			);
+			name = GooglePlaces;
+			path = GooglePlaces;
+			sourceTree = "<group>";
+		};
+		062A5B561F0CD8716F558099458E66DD /* Pods-PlateDetectorTests */ = {
+			isa = PBXGroup;
+			children = (
+				0D2F715FD649F62B84685EEB1D75BA9A /* Info.plist */,
+				A88E42A8CDD355179E60C380428026E9 /* Pods-PlateDetectorTests.modulemap */,
+				3913A4C508E94F9377E4480E9A4CEF55 /* Pods-PlateDetectorTests-acknowledgements.markdown */,
+				D0D107B3F2A270B07E53BF7F5AF827CE /* Pods-PlateDetectorTests-acknowledgements.plist */,
+				DD5E595A4A8402C7AC8F9E2F18182D27 /* Pods-PlateDetectorTests-dummy.m */,
+				B37218E4FA51F34C8224BFF8101AA998 /* Pods-PlateDetectorTests-frameworks.sh */,
+				FC0B4AFE7763DAB2B78F7CB5439D1FA7 /* Pods-PlateDetectorTests-resources.sh */,
+				17138F005C99DCB89EDCEA04CB114260 /* Pods-PlateDetectorTests-umbrella.h */,
+				832B0D63B14C07C1795941F7911DD8B5 /* Pods-PlateDetectorTests.debug.xcconfig */,
+				FCF8BA6CFD343D7206E2F4BD73F46039 /* Pods-PlateDetectorTests.release.xcconfig */,
+			);
+			name = "Pods-PlateDetectorTests";
+			path = "Target Support Files/Pods-PlateDetectorTests";
+			sourceTree = "<group>";
+		};
+		09DB508F39D8BE758EA4A7B9047268E9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A65ED65616C5861E2765BDC60AAAF910 /* GooglePlaces.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		26C94CF6FBD559155351548F2127E7DB /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				B2F22323EA3B1ADB4F96376E3F709A68 /* Base */,
+				488E301C4ACDDA928635C4886F5F6158 /* Maps */,
+			);
+			name = GoogleMaps;
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		2D4AAAFBCBEF4E7BD1EC01ABA1540C57 /* Pods-PlateDetectorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DD8998862EA6854407737804ED293F66 /* Info.plist */,
+				C91A9B8B2C2887785527C1029FE43BC8 /* Pods-PlateDetectorUITests.modulemap */,
+				F1307242DB5B51990602EFFFF1956267 /* Pods-PlateDetectorUITests-acknowledgements.markdown */,
+				63CD70947E918F2E0D71458036BCF19F /* Pods-PlateDetectorUITests-acknowledgements.plist */,
+				1FFC281C9C5B874159F14A58E2CCE9DD /* Pods-PlateDetectorUITests-dummy.m */,
+				F8DBD2CF3CCF8B59B5F8E7134C1C4C39 /* Pods-PlateDetectorUITests-frameworks.sh */,
+				C2A4AC58A4E241BCA81AF724334CE391 /* Pods-PlateDetectorUITests-resources.sh */,
+				0AF4CCEA87E1DD5AE7902869CC5A858D /* Pods-PlateDetectorUITests-umbrella.h */,
+				A4447431B9A3D1E2E4B2491EE0F93EB5 /* Pods-PlateDetectorUITests.debug.xcconfig */,
+				9E39CFD4BE367529FD7CBC0BE08C5578 /* Pods-PlateDetectorUITests.release.xcconfig */,
+			);
+			name = "Pods-PlateDetectorUITests";
+			path = "Target Support Files/Pods-PlateDetectorUITests";
+			sourceTree = "<group>";
+		};
+		343584E22C57489C672A8E6F731CB43A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1C6200385182862E9168588E60B1CD37 /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		385FA015FFB9210F372AB1078B856AAB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26C94CF6FBD559155351548F2127E7DB /* GoogleMaps */,
+				00B63D9B3EBC8ECAFD5DA8C24F1A42DF /* GooglePlaces */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		45C92357F508DF72388483C612CE5F65 /* Pods-PlateDetector */ = {
+			isa = PBXGroup;
+			children = (
+				941195AFC6081B846103A3B3BB3FBDE1 /* Info.plist */,
+				048FB5684ED17C7A054BE459A93CFB9E /* Pods-PlateDetector.modulemap */,
+				09158159303E2355E47D27F2F7C96E83 /* Pods-PlateDetector-acknowledgements.markdown */,
+				C36122D539C75CA030E2D1C08DF96B23 /* Pods-PlateDetector-acknowledgements.plist */,
+				1190BBE3CFD3744375715E03AFE6F38A /* Pods-PlateDetector-dummy.m */,
+				A6DC6465B71399CD0CD165F0FDE2EB44 /* Pods-PlateDetector-frameworks.sh */,
+				0B0AABB2B6185D0C7B67CE771B58EA36 /* Pods-PlateDetector-resources.sh */,
+				67F29AB243F94477EFBE1696EEE5FC0E /* Pods-PlateDetector-umbrella.h */,
+				8F388DC1EF7FBDC3992945CD299E6830 /* Pods-PlateDetector.debug.xcconfig */,
+				17375E1B49C4EA8C63298103C5607591 /* Pods-PlateDetector.release.xcconfig */,
+			);
+			name = "Pods-PlateDetector";
+			path = "Target Support Files/Pods-PlateDetector";
+			sourceTree = "<group>";
+		};
+		475420FA59EFC8377CF994A338979247 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70324FDF1FBB41BEA92DE76E00BD3E96 /* GooglePlaces.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		488E301C4ACDDA928635C4886F5F6158 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				82CE66B3B7EC3F6274BF43A52FEEAE6E /* Frameworks */,
+				343584E22C57489C672A8E6F731CB43A /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		4CFA8C2E94378AFFDBA3DF92FBE7E3DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B22C69ADCE7C9D529F11B17B4EF5E065 /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		58FDA7BFC53057F029F588BD65AC005D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB37D35B3ED8D66784351D4875509ADE /* Pods_PlateDetector.framework */,
+				229C277DCB3B2FEA232929F4A1B035C8 /* Pods_PlateDetectorTests.framework */,
+				295C5485248FC29D747A4951585FC170 /* Pods_PlateDetectorUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				385FA015FFB9210F372AB1078B856AAB /* Pods */,
+				58FDA7BFC53057F029F588BD65AC005D /* Products */,
+				AD53518F9D8C2EA3380A61CCF140AE73 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		82CE66B3B7EC3F6274BF43A52FEEAE6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08F1229163C7F5E61C7C4B361510F11C /* GoogleMaps.framework */,
+				A92DFDA40F47C0FD221B2872C31099A1 /* GoogleMapsCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD53518F9D8C2EA3380A61CCF140AE73 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				45C92357F508DF72388483C612CE5F65 /* Pods-PlateDetector */,
+				062A5B561F0CD8716F558099458E66DD /* Pods-PlateDetectorTests */,
+				2D4AAAFBCBEF4E7BD1EC01ABA1540C57 /* Pods-PlateDetectorUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B2F22323EA3B1ADB4F96376E3F709A68 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				4CFA8C2E94378AFFDBA3DF92FBE7E3DC /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		347638279246849CF05561A951EC0CB6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C074BED6D6713DA11030E2D2E81211E /* Pods-PlateDetector-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35BAE8902D5718A0E1D9F0F85657BC2D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A97CC5421601ABD2D5279BA3856B1EBE /* Pods-PlateDetectorTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7BC2A96943DF41D7D3FBAAAAA0B19D6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A64C2A218090EC6A767E602C49D3AB6 /* Pods-PlateDetectorUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E081663AF03B157D46A6257911A17201 /* Pods-PlateDetector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A2C1781D45385559E0D5ED318282744 /* Build configuration list for PBXNativeTarget "Pods-PlateDetector" */;
+			buildPhases = (
+				2170CCE7004146926B1EC172F2A8C5BA /* Sources */,
+				17368A98F2D296F68EB5857F4FF775EE /* Frameworks */,
+				347638279246849CF05561A951EC0CB6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-PlateDetector";
+			productName = "Pods-PlateDetector";
+			productReference = BB37D35B3ED8D66784351D4875509ADE /* Pods_PlateDetector.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F8268FB03A8B1651D81BC949539A0B5E /* Pods-PlateDetectorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06BC5DAC5182A23957981F3C3588A75C /* Build configuration list for PBXNativeTarget "Pods-PlateDetectorTests" */;
+			buildPhases = (
+				4079DBFF82D8F5C6B17BC80EBEFE0AC2 /* Sources */,
+				3EDFDD5B152972FA4CF0D92BF0385DCD /* Frameworks */,
+				35BAE8902D5718A0E1D9F0F85657BC2D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC8C5A02DB22552AD369F6173E3622E4 /* PBXTargetDependency */,
+			);
+			name = "Pods-PlateDetectorTests";
+			productName = "Pods-PlateDetectorTests";
+			productReference = 229C277DCB3B2FEA232929F4A1B035C8 /* Pods_PlateDetectorTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F87C8B5E73827C84E320CACE00CAF894 /* Pods-PlateDetectorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46585C09D167F05BDBBF809D02F7759A /* Build configuration list for PBXNativeTarget "Pods-PlateDetectorUITests" */;
+			buildPhases = (
+				0C765830EC4E8283A20ABDCDBD7CC778 /* Sources */,
+				8B2C5320537296D7285A2070CE7072D3 /* Frameworks */,
+				A7BC2A96943DF41D7D3FBAAAAA0B19D6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDBFEBE96C63F73889B674841F2321B5 /* PBXTargetDependency */,
+			);
+			name = "Pods-PlateDetectorUITests";
+			productName = "Pods-PlateDetectorUITests";
+			productReference = 295C5485248FC29D747A4951585FC170 /* Pods_PlateDetectorUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 58FDA7BFC53057F029F588BD65AC005D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E081663AF03B157D46A6257911A17201 /* Pods-PlateDetector */,
+				F8268FB03A8B1651D81BC949539A0B5E /* Pods-PlateDetectorTests */,
+				F87C8B5E73827C84E320CACE00CAF894 /* Pods-PlateDetectorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C765830EC4E8283A20ABDCDBD7CC778 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30845DB8EB14754E85A1F5B07A3B5348 /* Pods-PlateDetectorUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2170CCE7004146926B1EC172F2A8C5BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E59FF3F0FCE795C415812A598080913 /* Pods-PlateDetector-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4079DBFF82D8F5C6B17BC80EBEFE0AC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2852FBA8686C7B8CA9DE901FFA24EE64 /* Pods-PlateDetectorTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC8C5A02DB22552AD369F6173E3622E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PlateDetector";
+			target = E081663AF03B157D46A6257911A17201 /* Pods-PlateDetector */;
+			targetProxy = B7AADFC15DA8393D26C7BCB57C0E6120 /* PBXContainerItemProxy */;
+		};
+		EDBFEBE96C63F73889B674841F2321B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PlateDetector";
+			target = E081663AF03B157D46A6257911A17201 /* Pods-PlateDetector */;
+			targetProxy = 8D65AFB577C4ED1B3EA1C85CFAED79BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		063198AB09B9CDB3A695432FC17AD8CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		07D0217305E97F03A3176F1B161EAC3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCF8BA6CFD343D7206E2F4BD73F46039 /* Pods-PlateDetectorTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PlateDetectorTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PlateDetectorTests/Pods-PlateDetectorTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		09FD9606D0313726E9CC7A909C30F10D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F388DC1EF7FBDC3992945CD299E6830 /* Pods-PlateDetector.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PlateDetector/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PlateDetector/Pods-PlateDetector.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0C37257A9C58A921C8D1E48F4CA8C25D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17375E1B49C4EA8C63298103C5607591 /* Pods-PlateDetector.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PlateDetector/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PlateDetector/Pods-PlateDetector.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		62BE7C01A996C8A379E4401F70C6B9A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E39CFD4BE367529FD7CBC0BE08C5578 /* Pods-PlateDetectorUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PlateDetectorUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PlateDetectorUITests/Pods-PlateDetectorUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		87EAC867385563488A6D8F1E74AC46B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D8BA18D363179C1DC8AB692F952F0BC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4447431B9A3D1E2E4B2491EE0F93EB5 /* Pods-PlateDetectorUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PlateDetectorUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PlateDetectorUITests/Pods-PlateDetectorUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DC0B5F73FC487BE76A089088227A911D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 832B0D63B14C07C1795941F7911DD8B5 /* Pods-PlateDetectorTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PlateDetectorTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PlateDetectorTests/Pods-PlateDetectorTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06BC5DAC5182A23957981F3C3588A75C /* Build configuration list for PBXNativeTarget "Pods-PlateDetectorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC0B5F73FC487BE76A089088227A911D /* Debug */,
+				07D0217305E97F03A3176F1B161EAC3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87EAC867385563488A6D8F1E74AC46B4 /* Debug */,
+				063198AB09B9CDB3A695432FC17AD8CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46585C09D167F05BDBBF809D02F7759A /* Build configuration list for PBXNativeTarget "Pods-PlateDetectorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8BA18D363179C1DC8AB692F952F0BC0 /* Debug */,
+				62BE7C01A996C8A379E4401F70C6B9A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A2C1781D45385559E0D5ED318282744 /* Build configuration list for PBXNativeTarget "Pods-PlateDetector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09FD9606D0313726E9CC7A909C30F10D /* Debug */,
+				0C37257A9C58A921C8D1E48F4CA8C25D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

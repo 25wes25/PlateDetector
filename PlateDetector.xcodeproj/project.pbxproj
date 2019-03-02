@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6AA268F9C3321FBB7E0909DA /* Pods_PlateDetectorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB2B3C23C421E9202B8CFB63 /* Pods_PlateDetectorTests.framework */; };
 		906EB9CE222AAFFC0023DEFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906EB9CD222AAFFC0023DEFD /* AppDelegate.swift */; };
 		906EB9D0222AAFFC0023DEFD /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906EB9CF222AAFFC0023DEFD /* RootViewController.swift */; };
 		906EB9D2222AAFFC0023DEFD /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906EB9D1222AAFFC0023DEFD /* DataViewController.swift */; };
@@ -16,6 +17,8 @@
 		906EB9DC222AAFFD0023DEFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 906EB9DA222AAFFD0023DEFD /* LaunchScreen.storyboard */; };
 		906EB9E7222AAFFE0023DEFD /* PlateDetectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906EB9E6222AAFFE0023DEFD /* PlateDetectorTests.swift */; };
 		906EB9F2222AAFFE0023DEFD /* PlateDetectorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906EB9F1222AAFFE0023DEFD /* PlateDetectorUITests.swift */; };
+		C11314A9E1E83F89D7106C25 /* Pods_PlateDetector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF08605F109C5A81CA4D587F /* Pods_PlateDetector.framework */; };
+		FA491A47C65E9A98F7B3C9E7 /* Pods_PlateDetectorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4D3CA4C206F9B34379CC81B /* Pods_PlateDetectorUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C92BE6DD81A53CBBF168861 /* Pods-PlateDetectorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlateDetectorUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlateDetectorUITests/Pods-PlateDetectorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		375278333583C7CF66748BE6 /* Pods-PlateDetector.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlateDetector.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlateDetector/Pods-PlateDetector.debug.xcconfig"; sourceTree = "<group>"; };
+		3AB25928C02E6F76F653EB11 /* Pods-PlateDetector.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlateDetector.release.xcconfig"; path = "Pods/Target Support Files/Pods-PlateDetector/Pods-PlateDetector.release.xcconfig"; sourceTree = "<group>"; };
+		76D95FA09DC8F6BD85A2C6B0 /* Pods-PlateDetectorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlateDetectorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PlateDetectorTests/Pods-PlateDetectorTests.release.xcconfig"; sourceTree = "<group>"; };
+		7C1BEB055CBA18F949ADBCA0 /* Pods-PlateDetectorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlateDetectorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlateDetectorTests/Pods-PlateDetectorTests.debug.xcconfig"; sourceTree = "<group>"; };
 		906EB9CA222AAFFC0023DEFD /* PlateDetector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlateDetector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		906EB9CD222AAFFC0023DEFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		906EB9CF222AAFFC0023DEFD /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +59,10 @@
 		906EB9ED222AAFFE0023DEFD /* PlateDetectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlateDetectorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		906EB9F1222AAFFE0023DEFD /* PlateDetectorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlateDetectorUITests.swift; sourceTree = "<group>"; };
 		906EB9F3222AAFFE0023DEFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC836873B0E42718578E8C20 /* Pods-PlateDetectorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlateDetectorUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PlateDetectorUITests/Pods-PlateDetectorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B4D3CA4C206F9B34379CC81B /* Pods_PlateDetectorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlateDetectorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB2B3C23C421E9202B8CFB63 /* Pods_PlateDetectorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlateDetectorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF08605F109C5A81CA4D587F /* Pods_PlateDetector.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlateDetector.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C11314A9E1E83F89D7106C25 /* Pods_PlateDetector.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AA268F9C3321FBB7E0909DA /* Pods_PlateDetectorTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +86,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA491A47C65E9A98F7B3C9E7 /* Pods_PlateDetectorUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24B5A8CCD3D900E79A1831E3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				375278333583C7CF66748BE6 /* Pods-PlateDetector.debug.xcconfig */,
+				3AB25928C02E6F76F653EB11 /* Pods-PlateDetector.release.xcconfig */,
+				7C1BEB055CBA18F949ADBCA0 /* Pods-PlateDetectorTests.debug.xcconfig */,
+				76D95FA09DC8F6BD85A2C6B0 /* Pods-PlateDetectorTests.release.xcconfig */,
+				0C92BE6DD81A53CBBF168861 /* Pods-PlateDetectorUITests.debug.xcconfig */,
+				AC836873B0E42718578E8C20 /* Pods-PlateDetectorUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4380A4FB2B53ECEEF43B4A20 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF08605F109C5A81CA4D587F /* Pods_PlateDetector.framework */,
+				BB2B3C23C421E9202B8CFB63 /* Pods_PlateDetectorTests.framework */,
+				B4D3CA4C206F9B34379CC81B /* Pods_PlateDetectorUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		906EB9C1222AAFFB0023DEFD = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +123,8 @@
 				906EB9E5222AAFFE0023DEFD /* PlateDetectorTests */,
 				906EB9F0222AAFFE0023DEFD /* PlateDetectorUITests */,
 				906EB9CB222AAFFC0023DEFD /* Products */,
+				24B5A8CCD3D900E79A1831E3 /* Pods */,
+				4380A4FB2B53ECEEF43B4A20 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -138,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 906EB9F6222AAFFE0023DEFD /* Build configuration list for PBXNativeTarget "PlateDetector" */;
 			buildPhases = (
+				7E744DE5197380F5364890DA /* [CP] Check Pods Manifest.lock */,
 				906EB9C6222AAFFB0023DEFD /* Sources */,
 				906EB9C7222AAFFB0023DEFD /* Frameworks */,
 				906EB9C8222AAFFB0023DEFD /* Resources */,
+				9EC8525DC687E842950CA86E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -155,6 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 906EB9F9222AAFFE0023DEFD /* Build configuration list for PBXNativeTarget "PlateDetectorTests" */;
 			buildPhases = (
+				AFAF74915B373CA44D02D41D /* [CP] Check Pods Manifest.lock */,
 				906EB9DE222AAFFE0023DEFD /* Sources */,
 				906EB9DF222AAFFE0023DEFD /* Frameworks */,
 				906EB9E0222AAFFE0023DEFD /* Resources */,
@@ -173,6 +216,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 906EB9FC222AAFFE0023DEFD /* Build configuration list for PBXNativeTarget "PlateDetectorUITests" */;
 			buildPhases = (
+				08C63C94A70B91C02D1ACD60 /* [CP] Check Pods Manifest.lock */,
 				906EB9E9222AAFFE0023DEFD /* Sources */,
 				906EB9EA222AAFFE0023DEFD /* Frameworks */,
 				906EB9EB222AAFFE0023DEFD /* Resources */,
@@ -256,6 +300,83 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08C63C94A70B91C02D1ACD60 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PlateDetectorUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E744DE5197380F5364890DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PlateDetector-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9EC8525DC687E842950CA86E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PlateDetector/Pods-PlateDetector-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlateDetector/Pods-PlateDetector-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFAF74915B373CA44D02D41D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PlateDetectorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		906EB9C6222AAFFB0023DEFD /* Sources */ = {
@@ -438,6 +559,7 @@
 		};
 		906EB9F7222AAFFE0023DEFD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 375278333583C7CF66748BE6 /* Pods-PlateDetector.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -456,6 +578,7 @@
 		};
 		906EB9F8222AAFFE0023DEFD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AB25928C02E6F76F653EB11 /* Pods-PlateDetector.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -474,6 +597,7 @@
 		};
 		906EB9FA222AAFFE0023DEFD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C1BEB055CBA18F949ADBCA0 /* Pods-PlateDetectorTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -495,6 +619,7 @@
 		};
 		906EB9FB222AAFFE0023DEFD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76D95FA09DC8F6BD85A2C6B0 /* Pods-PlateDetectorTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +641,7 @@
 		};
 		906EB9FD222AAFFE0023DEFD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C92BE6DD81A53CBBF168861 /* Pods-PlateDetectorUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -536,6 +662,7 @@
 		};
 		906EB9FE222AAFFE0023DEFD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC836873B0E42718578E8C20 /* Pods-PlateDetectorUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

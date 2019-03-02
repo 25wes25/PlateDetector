@@ -1,0 +1,6 @@
+framework module Pods_PlateDetectorTests {
+  umbrella header "Pods-PlateDetectorTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
